@@ -156,6 +156,11 @@ $avatarColor : #9B51E0;
     &:hover{
       cursor:pointer;
     }
+    @media (max-width:768px) {
+      &{
+        display:none;
+      }
+    }
   }
   .btn{
     outline: none;
@@ -180,6 +185,19 @@ $avatarColor : #9B51E0;
     }
     &:hover{
       cursor:pointer;
+    }
+    @media (max-width:768px) {
+      &{
+        span{
+          display:none;
+        }
+      }
+    }
+    @media (max-width:768px) {
+      &{
+        width:30px;
+        img{margin:0 auto}
+      }
     }
   }
   .avatar{
